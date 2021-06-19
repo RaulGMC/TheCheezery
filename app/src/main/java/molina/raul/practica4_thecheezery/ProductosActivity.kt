@@ -29,8 +29,8 @@ class ProductosActivity : AppCompatActivity() {
         listView.adapter = cold
         var hot: AdaptadorProductos = AdaptadorProductos(this, hotDrinks)
         listView.adapter = hot
-        var sweeties: AdaptadorProductos = AdaptadorProductos(this, sweets)
-        listView.adapter = sweeties
+        var sweets: AdaptadorProductos = AdaptadorProductos(this, sweets)
+        listView.adapter = sweets
         var salties: AdaptadorProductos = AdaptadorProductos(this, salties)
         listView.adapter = salties
 
@@ -48,7 +48,6 @@ class ProductosActivity : AppCompatActivity() {
         }
 
     }
-
 
     fun agregaCold() {
         coldDrinks.add(
